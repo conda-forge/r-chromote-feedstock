@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.3.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/chromote_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/chromote/chromote_{{ version }}.tar.gz
-  sha256: a376af67a2f9e6684425e6463f1b3a488e1a712d11b48f3b7d0f9863d2410875
+  sha256: 0f8480692f86626c94e8035061eb890143260bbc874e0609c79730a369cd6b56
 
 build:
   merge_build_host: true  # [win]
