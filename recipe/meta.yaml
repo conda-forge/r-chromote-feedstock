@@ -25,6 +25,7 @@ requirements:
   host:
     - r-base
     - r-r6
+    - r-cli
     - r-curl
     - r-fastmap
     - r-jsonlite
@@ -32,11 +33,14 @@ requirements:
     - r-magrittr
     - r-processx
     - r-promises >=1.1.1
-    - r-rlang
+    - r-rlang >=1.1.0
     - r-websocket >=1.2.0
+    - r-withr
+    - r-zip
   run:
     - r-base
     - r-r6
+    - r-cli
     - r-curl
     - r-fastmap
     - r-jsonlite
@@ -44,8 +48,10 @@ requirements:
     - r-magrittr
     - r-processx
     - r-promises >=1.1.1
-    - r-rlang
+    - r-rlang >=1.1.0
     - r-websocket >=1.2.0
+    - r-withr
+    - r-zip
 
 test:
   commands:
