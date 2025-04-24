@@ -1,4 +1,4 @@
-{% set version = "0.5.0" %}
+{% set version = "0.5.1" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/chromote_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/chromote/chromote_{{ version }}.tar.gz
-  sha256: 8b46297f38399701e9eec36d35f57adf79a6bf3372013bb7a27946f34e6a90e7
+  sha256: b0caa76507a2dea3c524c84d99ca0ac77eb8b46b60adc02fbc80c67741b354b5
 
 build:
   number: 0
