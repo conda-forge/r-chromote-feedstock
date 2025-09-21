@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-chromote-feed
 
 Home: https://github.com/rstudio/chromote
 
-Package license: GPL-2.0-or-later
+Package license: MIT
 
 Summary: An implementation of the 'Chrome DevTools Protocol', for controlling a headless Chrome web browser.
 
