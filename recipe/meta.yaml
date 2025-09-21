@@ -12,7 +12,7 @@ source:
   sha256: b0caa76507a2dea3c524c84d99ca0ac77eb8b46b60adc02fbc80c67741b354b5
 
 build:
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -60,11 +60,12 @@ test:
 
 about:
   home: https://github.com/rstudio/chromote
-  license: GPL-2.0-or-later
+  license: MIT
   summary: An implementation of the 'Chrome DevTools Protocol', for controlling a headless Chrome web browser.
-  license_family: GPL2
+  license_family: MIT
   license_file:
-    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
+    - '{{ environ["PREFIX"] }}/lib/R/share/licenses/MIT'
+    - LICENSE
 
 extra:
   recipe-maintainers:
